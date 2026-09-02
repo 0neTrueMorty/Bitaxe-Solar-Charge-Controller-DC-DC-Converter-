@@ -17,7 +17,7 @@ I plan to run X1 20w bitaxe, but will design for 60w
 
 60w/5v = 12a
 
-TI TPS51375LVBHR chosen
+TI TPS51375LVBHR chosen design was created using TI's WEBENCH Power designer. pdf of design report uploaded to important documents
 
 2) MPPT selection
 
