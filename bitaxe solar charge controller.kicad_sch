@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e2b61a9f-a066-472d-b453-4ccbb5df8812")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 63.5 102.87)
+		(size 30.48 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "03463be5-1b05-4fc7-a792-30adbb2628ac")
+		(property "Sheetname" "Undervoltage cutoff"
+			(at 63.5 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Undervoltage cutoff.kicad_sch"
+			(at 63.5 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 82.55)
+		(size 30.48 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9e6045d7-d71e-457a-8da0-81dc62ea7766")
+		(property "Sheetname" "MPPT charge controller"
+			(at 63.5 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPPT charge controller.kicad_sch"
+			(at 63.5 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 62.23)
+		(size 30.48 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ba84c444-69cc-4786-b02c-311bb9c40cc8")
+		(property "Sheetname" "12v-5v converter"
+			(at 63.5 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12v-5v converter.kicad_sch"
+			(at 63.5 74.2446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
