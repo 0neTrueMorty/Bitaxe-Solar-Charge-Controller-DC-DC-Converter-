@@ -9,5 +9,18 @@ This PCB will be made in KiCad and include:
 
 The goal of this project is to make an all-in-one PCB to interface between a bitaxe and any COTS 12V battery and solar panel setup (likely in the 100-200W range). 
 
+# design
+
+1) regulator selection
+
+I plan to run X1 20w bitaxe, but will design for 60w
+
+60w/5v = 12a
+
+TI TPS51375LVBHR chosen
+
+2) MPPT selection
+
+TI BQ24650RVAR chosen because of internet
 
 
