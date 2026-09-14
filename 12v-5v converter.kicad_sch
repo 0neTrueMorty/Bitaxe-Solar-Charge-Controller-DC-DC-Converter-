@@ -5,6 +5,194 @@
 	(uuid "634b14cc-3a6e-41a2-b8e4-269eafe12e15")
 	(paper "A4")
 	(lib_symbols
+		(symbol "1.5uH Inductor:WE-HCM_1411"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WE-HCM_1411"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "1.5uH inductor:WE-HCM_1411"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WE-HCM_1411_0_0"
+				(circle
+					(center -6.908 0.53)
+					(radius 0.1)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.905) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "12v-5v dc-dc converter:TPS51375LVBHR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -919,6 +1107,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1036,48 +1363,180 @@
 		)
 	)
 	(junction
-		(at 36.83 57.15)
+		(at 127 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4132bc39-afe6-4390-9f25-15fb07674aca")
+		(uuid "0ecbddd8-3247-46b1-ab41-b53581752afd")
 	)
 	(junction
-		(at 48.26 57.15)
+		(at 203.2 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b1a4ac1-88fe-4ed5-a3e1-c26373ee2736")
+		(uuid "22da2fa6-a236-40ec-8c8e-102f5e7ae2eb")
 	)
 	(junction
-		(at 36.83 71.12)
+		(at 177.8 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a75dfb8-7c65-4544-9d61-2c0efb6c12a7")
+		(uuid "23115fb5-9097-4113-9839-b7ec1b7e2f13")
 	)
 	(junction
-		(at 120.65 76.2)
+		(at 177.8 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "997e871d-bea8-4164-92ce-481244ca1b6a")
+		(uuid "3068c59b-2984-4fc0-bc6d-793df32060ab")
 	)
 	(junction
 		(at 111.76 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca00406e-18a7-4c9d-b777-3709be7078ce")
+		(uuid "35a363be-a7a6-4bb7-96b1-a9c92ce32dbb")
+	)
+	(junction
+		(at 190.5 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5315a368-20aa-4067-b264-a0d645b96b8b")
+	)
+	(junction
+		(at 190.5 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ac56a89-d1bb-4ff0-aada-d95cc395287d")
+	)
+	(junction
+		(at 120.65 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70dc41cd-8145-4db3-b6d5-bc41217cc10b")
+	)
+	(junction
+		(at 165.1 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7416090a-5def-4739-93ff-243f66b99533")
+	)
+	(junction
+		(at 35.56 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78903fbb-38ea-4279-8442-8f4fc5161d5e")
+	)
+	(junction
+		(at 24.13 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7927d5cf-3a79-4ad5-a64a-be3e8218c507")
+	)
+	(junction
+		(at 57.15 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b1a4ac1-88fe-4ed5-a3e1-c26373ee2736")
+	)
+	(junction
+		(at 138.43 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c63df4a-50f7-4adc-936f-109cab14644a")
+	)
+	(junction
+		(at 149.86 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "880940f5-9940-408a-b1f5-3b14b84ce67c")
+	)
+	(junction
+		(at 45.72 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a75dfb8-7c65-4544-9d61-2c0efb6c12a7")
+	)
+	(junction
+		(at 149.86 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aedb085c-4346-496b-835a-418c75da6fd8")
+	)
+	(junction
+		(at 35.56 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0be0025-2e3f-489f-8f63-fc67e59c73f1")
+	)
+	(junction
+		(at 45.72 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1c7c209-8529-497e-85d7-3b95339bdfb8")
+	)
+	(junction
+		(at 127 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de26d861-2503-47ba-8145-53c897947d61")
+	)
+	(junction
+		(at 165.1 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4fb3f30-1430-427f-b72e-ce5048da5f72")
+	)
+	(junction
+		(at 138.43 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff120cf6-4df1-4d66-977e-942c98e0870f")
+	)
+	(no_connect
+		(at 111.76 62.23)
+		(uuid "1b75b5fb-9d0e-4513-8602-3fe420313ed0")
+	)
+	(no_connect
+		(at 111.76 64.77)
+		(uuid "32c642cf-5fb4-4961-94f2-a7b5fc9d8bbe")
+	)
+	(no_connect
+		(at 111.76 59.69)
+		(uuid "5d0b3d04-04a4-475f-acc4-2ff0a82ac1dc")
+	)
+	(no_connect
+		(at 111.76 67.31)
+		(uuid "c489b944-b653-479a-b8cc-975a81321444")
 	)
 	(wire
 		(pts
-			(xy 130.81 67.31) (xy 130.81 68.58)
+			(xy 165.1 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a9c15b7-dc69-4660-b8d1-a72e4a19cd0c")
+		(uuid "03729a2b-2b41-46c9-aaec-86ae04dacea9")
 	)
 	(wire
 		(pts
-			(xy 111.76 57.15) (xy 130.81 57.15)
+			(xy 177.8 71.12) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f2a895-b004-4880-b527-495b23e7c7dd")
+	)
+	(wire
+		(pts
+			(xy 74.93 74.93) (xy 81.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a065f0c-2c36-4e17-a374-00b36cf9c79e")
+	)
+	(wire
+		(pts
+			(xy 111.76 57.15) (xy 121.92 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1546,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 57.15) (xy 48.26 60.96)
+			(xy 35.56 68.58) (xy 35.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1268c0b7-2702-4439-882c-c8042fca7729")
+	)
+	(wire
+		(pts
+			(xy 57.15 57.15) (xy 57.15 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1097,13 +1566,43 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 57.15) (xy 48.26 57.15)
+			(xy 203.2 71.12) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f5b8f8-7252-4b68-9fbb-329315b6fd1d")
+	)
+	(wire
+		(pts
+			(xy 45.72 57.15) (xy 57.15 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "19df39d5-59e0-473a-bea6-d9ddab2cd275")
+	)
+	(wire
+		(pts
+			(xy 138.43 57.15) (xy 149.86 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20aa4cd5-0f94-4bd6-b9bd-3febc3c84e13")
+	)
+	(wire
+		(pts
+			(xy 203.2 57.15) (xy 203.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2219edb7-1db6-496f-971f-bd2a7027f653")
 	)
 	(wire
 		(pts
@@ -1117,7 +1616,37 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 71.12) (xy 36.83 71.12)
+			(xy 165.1 71.12) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3330f9cb-bc07-46dc-b228-a5600c8210f5")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 120.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341dd3e9-fc5e-4cec-9e74-9c07296165ef")
+	)
+	(wire
+		(pts
+			(xy 177.8 57.15) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384cc7ee-0a1f-46d5-b25b-011145d09745")
+	)
+	(wire
+		(pts
+			(xy 57.15 71.12) (xy 45.72 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1127,7 +1656,37 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 111.76 76.2)
+			(xy 24.13 68.58) (xy 24.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f5eab9-e0d4-456c-adec-bdd7269cb239")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d310dfd-6d42-4b29-b223-e7fa347f41cd")
+	)
+	(wire
+		(pts
+			(xy 35.56 57.15) (xy 35.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e43c891-480b-432a-8afa-f3c1ee320842")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 111.76 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1137,7 +1696,67 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 111.76 74.93)
+			(xy 203.2 57.15) (xy 209.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506ca9df-daed-425f-989c-c868f9eabd91")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5296dcb4-107f-4ae7-8723-e7c4666e4ec8")
+	)
+	(wire
+		(pts
+			(xy 24.13 57.15) (xy 24.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fcd1e5-6b9c-4a05-8a34-3c60ac1ce695")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58468993-523c-4bad-af8d-8d98fccbb007")
+	)
+	(wire
+		(pts
+			(xy 138.43 57.15) (xy 138.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600308b8-bfdc-4529-86a6-74c4a10a3e59")
+	)
+	(wire
+		(pts
+			(xy 137.16 57.15) (xy 138.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6282bc38-051b-4395-94a0-9beea78a753a")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1147,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 68.58) (xy 36.83 71.12)
+			(xy 45.72 68.58) (xy 45.72 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1157,37 +1776,157 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 57.15) (xy 36.83 57.15)
+			(xy 35.56 71.12) (xy 45.72 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8da56599-d985-4e16-bf80-e13b91645129")
+		(uuid "6e4c8a75-0c6f-4dfe-b0f3-72db2495293b")
 	)
 	(wire
 		(pts
-			(xy 130.81 57.15) (xy 130.81 59.69)
+			(xy 58.42 74.93) (xy 67.31 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "912d994a-7a16-42d6-8f72-377f0d852ed8")
+		(uuid "6fa220e3-2c06-434e-b6d0-12b947c49931")
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 120.65 88.9)
+			(xy 24.13 57.15) (xy 35.56 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1463faf-3786-47e1-b8b8-403644dff089")
+		(uuid "7477d9cd-7ad5-4418-9954-3c28301325b8")
 	)
 	(wire
 		(pts
-			(xy 36.83 57.15) (xy 36.83 60.96)
+			(xy 149.86 80.01) (xy 149.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f036ab-89f3-4644-918d-cce7469d45d3")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 149.86 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c3c1a8-1747-41ad-88c7-5579866cfb54")
+	)
+	(wire
+		(pts
+			(xy 111.76 69.85) (xy 138.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ce5459-6505-43c3-97ac-d3d6615860ad")
+	)
+	(wire
+		(pts
+			(xy 149.86 57.15) (xy 149.86 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894c227f-a6d7-4942-a4a4-955b6aafc926")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c443b0-fcd0-4a5f-b831-b0be61d43030")
+	)
+	(wire
+		(pts
+			(xy 24.13 71.12) (xy 35.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89cf3998-1f0c-4bb3-bef1-179c1329c4be")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 177.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e980a44-f35c-4347-9159-d758f0fd2fba")
+	)
+	(wire
+		(pts
+			(xy 111.76 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952f4ece-f4dd-46b4-8eaf-d1834b9db70e")
+	)
+	(wire
+		(pts
+			(xy 190.5 57.15) (xy 203.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a515af-315b-41c8-a525-07d9621adb78")
+	)
+	(wire
+		(pts
+			(xy 177.8 57.15) (xy 190.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0b9213-77f9-4753-9f0d-99fcbc5357c5")
+	)
+	(wire
+		(pts
+			(xy 190.5 71.12) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34c3704-ec47-4b6f-98f4-f147be9ad220")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54a7886-cdf8-4d1e-a679-8d61d7a3f629")
+	)
+	(wire
+		(pts
+			(xy 45.72 57.15) (xy 45.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 68.58) (xy 48.26 71.12)
+			(xy 57.15 68.58) (xy 57.15 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1207,7 +1946,57 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 57.15) (xy 81.28 57.15)
+			(xy 138.43 67.31) (xy 138.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b23d06-1f37-4692-85cb-f51b24033e6d")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56532f8-860d-4e3d-b42b-c091bbc9745e")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 149.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabb933b-5547-45fd-91e6-b3917beb0344")
+	)
+	(wire
+		(pts
+			(xy 190.5 63.5) (xy 190.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae516ac-97c6-48dc-b91d-666e175a5770")
+	)
+	(wire
+		(pts
+			(xy 149.86 67.31) (xy 149.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc7d86c-d115-45df-8061-b12b2c30fdfe")
+	)
+	(wire
+		(pts
+			(xy 57.15 57.15) (xy 81.28 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1217,17 +2006,67 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 76.2) (xy 120.65 76.2)
+			(xy 81.28 77.47) (xy 76.2 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d982301d-6fdf-4b04-90ad-44ade8463435")
+		(uuid "cec72e9c-e4bb-443d-860c-13ef982a2a0a")
 	)
 	(wire
 		(pts
-			(xy 36.83 71.12) (xy 36.83 72.39)
+			(xy 165.1 63.5) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd6fc23-b104-4732-96a9-e76072479c74")
+	)
+	(wire
+		(pts
+			(xy 22.86 57.15) (xy 24.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58f6733-9a35-4748-9df2-8af93b77b4fb")
+	)
+	(wire
+		(pts
+			(xy 177.8 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9697a8-b31d-4b71-ad04-fb54b0097f5e")
+	)
+	(wire
+		(pts
+			(xy 35.56 57.15) (xy 45.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effd3e62-65fe-4578-8dc8-39fb7f055710")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd58edc9-75de-4e84-9db7-dfec2838a3f2")
+	)
+	(wire
+		(pts
+			(xy 45.72 71.12) (xy 45.72 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1235,9 +2074,29 @@
 		)
 		(uuid "ffce70ef-951d-4036-b0d2-46ee687457a4")
 	)
+	(label "C Boot"
+		(at 114.3 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "886ce917-a3bf-4aa9-a304-7703018edfaa")
+	)
+	(label "C Boot"
+		(at 76.2 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ba731fd9-baaa-474c-a337-333b5d475f35")
+	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 63.5 0)
+		(at 149.86 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1248,7 +2107,7 @@
 		(fields_autoplaced yes)
 		(uuid "05956237-603b-43ae-ae87-8f694b7a94e8")
 		(property "Reference" "R1"
-			(at 133.35 62.2299 0)
+			(at 152.4 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1259,7 +2118,7 @@
 			)
 		)
 		(property "Value" "154k"
-			(at 133.35 64.7699 0)
+			(at 152.4 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1270,7 +2129,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 129.032 63.5 90)
+			(at 148.082 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1281,7 +2140,7 @@
 			)
 		)
 		(property "Datasheet" "RC0805FR-07154KL"
-			(at 130.81 63.5 0)
+			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,7 +2151,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 63.5 0)
+			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1318,8 +2177,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 35.56 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bfbfd6b-6809-461a-a765-fed36164116a")
+		(property "Reference" "C5"
+			(at 39.37 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15u"
+			(at 39.37 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 36.5252 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C2012X5R1E156M125AC"
+			(at 35.56 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ab29452-5a55-443c-b83b-21ec0f24d3d2")
+		)
+		(pin "2"
+			(uuid "d38ff0d7-6ab0-4e23-8438-bab27ca8fa86")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 36.83 72.39 0)
+		(at 45.72 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1330,7 +2271,7 @@
 		(fields_autoplaced yes)
 		(uuid "157be85e-7794-4026-9c9a-7df7955464ae")
 		(property "Reference" "#PWR02"
-			(at 36.83 78.74 0)
+			(at 45.72 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1341,7 +2282,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 77.47 0)
+			(at 45.72 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1351,7 +2292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 72.39 0)
+			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1362,7 +2303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 72.39 0)
+			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1373,7 +2314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 72.39 0)
+			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1396,8 +2337,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 35.56 57.15 90)
+		(lib_id "Device:C")
+		(at 138.43 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1406,9 +2347,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4164c41a-1c38-4153-91d6-2505e3f3d01f")
-		(property "Reference" "#PWR01"
-			(at 39.37 57.15 0)
+		(uuid "1fae48dc-1c90-4546-b4c4-8da91eb93d4b")
+		(property "Reference" "C8"
+			(at 142.24 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 142.24 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 139.3952 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,8 +2381,68 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 31.75 57.1499 90)
+		(property "Datasheet" "GRM1555C1E330JA01D"
+			(at 138.43 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c289adae-8929-4813-8993-00cf923517fc")
+		)
+		(pin "2"
+			(uuid "8d97eebf-84b7-43c5-b062-5b52ced823b6")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 58.42 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23049905-be0f-4611-b5ec-c5893b47bb39")
+		(property "Reference" "#PWR07"
+			(at 62.23 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.61 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1430,7 +2453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 57.15 0)
+			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1441,7 +2464,250 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 57.15 0)
+			(at 58.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 58.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62d2d1a4-7131-4ab8-a233-59bcfa5e0786")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "253f9741-d027-4039-91c5-d85815f366e6")
+		(property "Reference" "C3"
+			(at 168.91 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68uF"
+			(at 168.91 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 166.0652 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C5750X5R1A686M230KA"
+			(at 165.1 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a8910e2-baf8-4e16-b35d-dac00104715c")
+		)
+		(pin "2"
+			(uuid "c0c6af89-caf9-452b-8ef2-0f954e0fd791")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 24.13 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3246a74c-13e9-4a4f-80bb-a86e78605191")
+		(property "Reference" "C6"
+			(at 27.94 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15u"
+			(at 27.94 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 25.0952 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C2012X5R1E156M125AC"
+			(at 24.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f726a5a-6e72-4156-87cb-9fb401a3a273")
+		)
+		(pin "2"
+			(uuid "0f0b4166-c1e1-48bd-b45d-f5f82f31249c")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 22.86 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4164c41a-1c38-4153-91d6-2505e3f3d01f")
+		(property "Reference" "#PWR01"
+			(at 26.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 19.05 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1452,7 +2718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 35.56 57.15 0)
+			(at 22.86 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1668,8 +2934,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 76.2 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bd9cf4f-ac46-4376-ad14-d3bcbfc77916")
+		(property "Reference" "R3"
+			(at 78.74 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 78.74 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 74.422 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "ERJ-2GE0R00X"
+			(at 76.2 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "53061ea2-c364-452c-adda-d3de277c1b35")
+		)
+		(pin "1"
+			(uuid "8c22c6d1-e20c-4d8a-99fa-0499615d785b")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78154c5b-887c-4368-a5b6-4b14ddde4ae6")
+		(property "Reference" "C10"
+			(at 207.01 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 207.01 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 204.1652 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C0603X5R1A104K030BC"
+			(at 203.2 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5cd2871-b7dd-4195-8d74-7c47a166d63c")
+		)
+		(pin "2"
+			(uuid "2becf724-9f3f-456c-813d-4a45f6c475cc")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 120.65 88.9 0)
+		(at 120.65 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1680,7 +3110,7 @@
 		(fields_autoplaced yes)
 		(uuid "81517d2f-ff99-4041-88c0-ef0c2073ae59")
 		(property "Reference" "#PWR03"
-			(at 120.65 95.25 0)
+			(at 120.65 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1691,7 +3121,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 93.98 0)
+			(at 120.65 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1701,7 +3131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 88.9 0)
+			(at 120.65 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1712,7 +3142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 88.9 0)
+			(at 120.65 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1723,7 +3153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 88.9 0)
+			(at 120.65 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1747,7 +3177,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 72.39 0)
+		(at 149.86 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1758,7 +3188,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b89ca2c-0171-40b2-891e-cc28ac87a79f")
 		(property "Reference" "R2"
-			(at 133.35 71.1199 0)
+			(at 152.4 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1768,8 +3198,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "154k"
-			(at 133.35 73.6599 0)
+		(property "Value" "21k"
+			(at 152.4 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1780,7 +3210,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.032 72.39 90)
+			(at 148.082 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1790,8 +3220,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "RC0805FR-07154KL"
-			(at 130.81 72.39 0)
+		(property "Datasheet" "RC0805FR-0721KL"
+			(at 149.86 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,7 +3232,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 72.39 0)
+			(at 149.86 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1828,8 +3258,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 48.26 64.77 0)
+		(lib_id "power:+5V")
+		(at 133.35 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1838,31 +3268,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e1d8adaf-7062-41f4-bcb2-07a8c978be8f")
-		(property "Reference" "C2"
-			(at 52.07 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 52.07 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 49.2252 68.58 0)
+		(uuid "8c029dab-36d5-4630-aa26-d2534c8bb6f9")
+		(property "Reference" "#PWR06"
+			(at 129.54 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1872,8 +3280,109 @@
 				)
 			)
 		)
-		(property "Datasheet" "GRM155R71H104KE14D"
-			(at 48.26 64.77 0)
+		(property "Value" "+5V"
+			(at 137.16 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74fc2fad-a734-4f51-9bb9-0061409e4335")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f2d703-2f26-48bc-a322-719a0e4df33d")
+		(property "Reference" "C11"
+			(at 181.61 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68uF"
+			(at 181.61 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 178.7652 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C5750X5R1A686M230KA"
+			(at 177.8 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1884,7 +3393,491 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 64.77 0)
+			(at 177.8 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b355e7d0-d40b-4fcc-b429-c3a0e890e4b9")
+		)
+		(pin "2"
+			(uuid "12c06226-ab87-45ae-b30d-2fd179844f47")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8f33043-ab95-4f6d-a48c-d1eee69bf197")
+		(property "Reference" "#PWR04"
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "362abf03-c1ba-4a6a-ba98-e2bdadcf59f3")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab75cdae-558c-4ad8-a5fe-7a7918c075e3")
+		(property "Reference" "#PWR05"
+			(at 205.74 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 213.36 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14553ef1-bb4a-4d1d-96e0-2e1359c478ab")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abca8c11-2050-4460-8b6a-7d7b265759c1")
+		(property "Reference" "C7"
+			(at 80.01 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 80.01 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 77.1652 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "GRM155R71H104KE14D"
+			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe640710-0074-4032-b0e7-921c066fd7c9")
+		)
+		(pin "2"
+			(uuid "17f06a7a-7989-4d0e-bdef-5a198d5f506c")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee1df42-62fa-43e5-a6c4-82f4c2f154f8")
+		(property "Reference" "C9"
+			(at 130.81 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 130.81 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 127.9652 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "GRM188R71A225KE15D"
+			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4fb26e0-cd9b-4829-8ecd-494138670739")
+		)
+		(pin "2"
+			(uuid "829a81cc-f8d7-4d89-a971-62c66eaf07d2")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1.5uH Inductor:WE-HCM_1411")
+		(at 129.54 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd3f2a46-812b-461c-8447-9d2205b9f260")
+		(property "Reference" "L1"
+			(at 128.5379 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5uH"
+			(at 128.5379 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1.5uH inductor:WE-HCM_1411"
+			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "7443091150"
+			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6b765407-79c6-42dd-b4e0-cdf3ce558ce7")
+		)
+		(pin "1"
+			(uuid "2970138b-2b87-4b27-9502-e5a28efbf905")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d8adaf-7062-41f4-bcb2-07a8c978be8f")
+		(property "Reference" "C2"
+			(at 60.96 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 60.96 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 58.1152 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "GRM155R71H104KE14D"
+			(at 57.15 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1910,8 +3903,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 71.12 74.93 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f78bedb2-ee88-4085-b88f-3cd5daa49667")
+		(property "Reference" "R4"
+			(at 71.12 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 71.12 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 71.12 76.708 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "CRCW0603100KFKEA"
+			(at 71.12 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "134c8ad3-bb19-449c-9ee6-f2d41a2dfc7e")
+		)
+		(pin "1"
+			(uuid "50adb132-1de6-4b3e-9ba7-4d9fcccd466c")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 36.83 64.77 0)
+		(at 45.72 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1922,7 +3995,7 @@
 		(fields_autoplaced yes)
 		(uuid "feccf235-c833-44c0-a328-9ebfdd56a9a6")
 		(property "Reference" "C1"
-			(at 40.64 63.4999 0)
+			(at 49.53 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1933,7 +4006,7 @@
 			)
 		)
 		(property "Value" "15u"
-			(at 40.64 66.0399 0)
+			(at 49.53 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1944,7 +4017,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 37.7952 68.58 0)
+			(at 46.6852 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1955,7 +4028,7 @@
 			)
 		)
 		(property "Datasheet" "C2012X5R1E156M125AC"
-			(at 36.83 64.77 0)
+			(at 45.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1966,7 +4039,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 64.77 0)
+			(at 45.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,6 +4059,88 @@
 			(project "bitaxe solar charge controller"
 				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 190.5 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff72a79d-6f34-4346-8d6b-56863e2bf933")
+		(property "Reference" "C4"
+			(at 194.31 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 194.31 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 191.4652 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C0603X5R1A104K030BC"
+			(at 190.5 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f3744e2-a83e-4bba-9b41-4c5b75b6ca2b")
+		)
+		(pin "2"
+			(uuid "045b0326-0f0c-4f1b-85f8-8124c7d4d0da")
+		)
+		(instances
+			(project "bitaxe solar charge controller"
+				(path "/e2b61a9f-a066-472d-b453-4ccbb5df8812/ba84c444-69cc-4786-b02c-311bb9c40cc8"
+					(reference "C4")
 					(unit 1)
 				)
 			)

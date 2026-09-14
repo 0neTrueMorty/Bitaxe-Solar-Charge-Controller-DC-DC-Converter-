@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "12v - 5v dc dc converter") (type "KiCad") (uri "${KIPRJMOD}/footprint library/LIB_TPS51375LVBHR") (options "") (descr ""))
 	(lib (name "MPPT Tracker") (type "KiCad") (uri "${KIPRJMOD}/footprint library/BQ24650RVAR") (options "") (descr ""))
+	(lib (name "1.5uH inductor") (type "KiCad") (uri "${KIPRJMOD}/footprint library/7443091150") (options "") (descr ""))
 )
